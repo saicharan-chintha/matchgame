@@ -1,0 +1,3 @@
+export const ADD_MATCHES = 'ADD_MATCHES';
+export const MATCHES_LOADING = 'MATCHES_LOADING';
+export const MATCHES_FAILED = 'MATCHES_FAILED'; 
