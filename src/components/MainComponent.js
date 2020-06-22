@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './HeaderComponent';
 //import { Switch, Route, Redirect, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-import Game from './GameComponent';
+import Match from './MatchComponent';
 import { fetchMatches } from '../redux/ActionCreators';
 
 const mapStateToProps = state => {
@@ -17,10 +17,6 @@ const mapDispatchToProps = dispatch => ({
 
 class Main extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         this.props.fetchMatches();
     }
@@ -29,7 +25,7 @@ class Main extends Component {
         return (
             <div>
                 <Header />
-                <Game matches={this.props.matches} />
+                <Match matches={this.props.matches} />
             </div>
         );
     }

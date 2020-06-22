@@ -9,8 +9,8 @@ class Header extends Component {
                     <div className="container">
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
-                                <h1>Match the following Game</h1>
-                                <p>Drag the options into the correct boxes!!</p>
+                                <h1>Match the following</h1>
+                                <p>Rearrange the items on the right to match items on the left</p>
                             </div>
                         </div>
                     </div>
